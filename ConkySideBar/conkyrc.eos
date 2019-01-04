@@ -1,0 +1,152 @@
+f# For ideas about how to modify the conky conf, please see:
+# https://github.com/Toory/Conky-config
+#
+##############################################
+#  Settings
+##############################################
+alignment top_right
+background yes
+border_width 1
+color0 0077FF 
+color1 991F00 
+color2 0000FF 
+color3 eb91df 
+color4 f2c55a 
+color5 a7f0e3
+cpu_avg_samples 2
+default_color white
+default_outline_color green
+default_shade_color red
+double_buffer yes
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+gap_x 0
+gap_y 50
+maximum_width 200
+minimum_size 0 0
+no_buffers yes
+override_utf8_locale no
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+#own_window_type override #for i3
+own_window_type desktop #for eos
+own_window yes
+own_window_class conky
+total_run_times 0
+update_interval 1
+uppercase no
+use_spacer right
+use_xft yes
+xftalpha 0.8
+xftfont  Bitstream Vera Sans Mono:size=8
+#own_window_argb_value 0	#for i3 comment out
+#own_window_argb_visual yes	#for i3 comment out
+#own_window_colour 000000	#for i3 comment out
+
+TEXT
+##############################################
+#DATE
+##############################################
+${color0}${font Hack:bold:size=8}DATE ${hr 2}$color
+${voffset 1}${offset 20}${font OpenLogos:size=64}t${voffset -25}${alignc}${font Trebuchet MS:size=8}EST:     ${time %r}
+${font}${offset 80}HST: ${tztime US/Hawaii %r}
+${offset 55}${alignc}${time %a %d %b %Y}
+${color0}${font Hack:bold:size=8}WEATHER${hr 2}$color
+${alignc}${font}Staunton,VA
+${alignc}${execi 900 /home/titan/Scripts/weather.sh 24401}
+${hr 1}
+${alignc}${font}Charlottesville,VA
+${alignc}${execi 900 /home/titan/Scripts/weather.sh 22901}
+${hr 1}
+${alignc}${font}Pahoa,HA
+${alignc}${execi 900 /home/titan/Scripts/weather.sh 96778}
+##############################################
+#SYSTEM
+##############################################
+${color0}${font Hack:bold:size=8}SYSTEM ${hr 2}$color
+${font Hack:regular:size=8}$sysname $kernel $alignr $machine
+Host:$alignr$nodename
+Uptime:$alignr$uptime
+##############################################
+#CPU
+##############################################
+${color0}${font Hack:bold:size=8}CPU ${hr 2}$color
+${font Hack:regular:size=8}${execi 9999 lscpu | grep name | sed 's/[^I]* //' | sed 's/.\{11\}$//'}
+${font Hack:regular:size=8}${cpugraph cpu1 33ffff 0000ff}
+#${font}Core 1 Temp: ${alignr} ${exec sensors | grep 'Core 0'| awk '{print $3}' | cut -c2-5} C
+#${font}Core 2 Temp: ${alignr} ${exec sensors | grep 'Core 1'| awk '{print $3}' | cut -c2-5} C
+#${font}Ambient Temp: ${alignr} ${exec sensors | grep 'Package id'| awk '{print $4}' | cut -c2-5} C
+#${font}Processor Fan: ${alignr} ${exec sensors | grep 'fan1'| awk '{print $2}'} RPM
+${font Hack:regular:size=8}Thread 1: ${freq 1} MHZ
+${cpu cpu1}%  ${offset 5}${color1} ${cpubar cpu1}$color
+#${font Hack:regular:size=8}Thread 2: ${freq 2} MHZ 
+#${cpu cpu2}%  ${offset 5} ${color1} ${cpubar cpu2}$color
+#${font Hack:regular:size=8}Thread 3: ${freq 3} MHZ
+#${cpu cpu3}%  ${offset 5} ${color1} ${cpubar cpu3}$color
+#${font Hack:regular:size=8}Thread 4: ${freq 4} MHZ 
+#${cpu cpu4}%  ${offset 5} ${color1} ${cpubar cpu4}$color
+##############################################
+#GPU
+##############################################
+#${color0}${font Hack:bold:size=8}GPU ${hr 2}$color$font
+#${execi 9999 nvidia-smi -q | grep 'Product Name' | awk '{print $4" "$5" "$6}'} $alignr ${exec nvidia-smi -q | grep 'Driver Version' | awk '{print $4}'}
+#Temp: $alignr +${exec nvidia-smi -q -d temperature | grep 'GPU Current Temp' | cut -d ":" -f 2}
+#GPU Fan: ${alignr} ${hwmon 2 fan 2} RPM
+#GPU Memory:  $alignr ${execi 10 nvidia-smi | awk 'FNR == 9 {print $9" "$10" "$11}'}
+##############################################
+#MEMORY
+##############################################
+${color0}${font Hack:bold:size=8}MEMORY ${hr 2}$color
+${font Hack:regular:size=8}Ram: $alignc $mem / $memmax $alignr $memperc%
+${color1}$membar
+##############################################
+#DISK
+##############################################
+${color0}${font Hack:bold:size=8}SSD ${hr 2}$color
+${color}${font Hack:regular:size=8} / $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
+${color1}${fs_bar /}$color
+#you can uncomment to add the read/write speed of system hard drive
+#${voffset 2}${font Hack:regular:size=8}| 	Read of /:  ${font}${font Liberation Sans:size=8}$alignr${diskio_read sda}
+#${font Hack:regular:size=8}|----${offset 5}${color3}${diskiograph_read sda 7,000 1793d0 ffffff}${font}${color}
+#${voffset 0}${font Hack:regular:size=8}|	Write of /:  ${font}${font Liberation Sans:size=8}$alignr${diskio_write sda}
+#${font Hack:regular:size=8}|----${offset 5}${color3}${diskiograph_write sda 7,000 1793d0 ffffff}${font}${color}
+#${color4}${font Hack:regular:size=8} Disk D $alignc ${fs_used /run/media/giux/DISCO D/} / ${fs_size /run/media/giux/DISCO D/} $alignr ${fs_used_perc /run/media/giux/DISCO D/}%
+#${fs_bar /run/media/giux/DISCO D/}$color
+#${color5}${font Hack:regular:size=8} Disk E $alignc ${fs_used /run/media/giux/DISCO E/} / ${fs_size /run/media/giux/DISCO E/} $alignr ${fs_used_perc /run/media/giux/DISCO E/}%
+#${fs_bar /run/media/giux/DISCO E/}$color
+##############################################
+#NETWORK
+##############################################
+${color0}${font Hack:bold:size=8}NETWORK ${hr 2}$color${if_up bnep0}
+${font Hack:regular:size=8}Interface:   /   $alignr Bluetooth
+${font Hack:regular:size=8}Local IP:       $alignr${addr bnep0}
+${font Hack:regular:size=8}Public IP: ${execi 600 curl icanhazip.com}
+#{font Hack:regular:size=8}Network:$alignr${wireless_essid wlp12s0}
+${downspeedgraph bnep0 33ffff 0000ff}
+Down: $alignc ${downspeed bnep0}/s $alignr tot: ${totaldown bnep0}
+${upspeedgraph bnep0  33ffff 0000ff}
+Up: $alignc ${upspeed bnep0}/s $alignr tot: ${totalup bnep0}
+${endif}${if_up wlp12s0}
+${font Hack:regular:size=8}Interface:      $alignr WiFi
+${font Hack:regular:size=8}Local IP:       $alignr${addr wlp12s0}
+${font Hack:regular:size=8}Public IP:$alignr${execi 600 curl ipinfo.io/ip}
+${font Hack:regular:size=8}Network:$alignr${wireless_essid wlp12s0}
+${downspeedgraph wlp12s0 33ffff 0000ff}
+Down: $alignc ${downspeed wlp12s0}/s $alignr tot: ${totaldown wlp12s0}
+${upspeedgraph bnep0  33ffff 0000ff}
+Up: $alignc ${upspeed wlp12s0}/s $alignr tot: ${totalup wlp2s0}
+${endif}
+${color0}${font Hack:bold:size=8}SIRIUSXM SERVER ${hr 2}$color
+$alignc${font Hack:regular:size=8}${execi 600 /home/titan/Scripts/sxmcheck.sh}
+#{color0}${font Hack:bold:size=8}GEOIP ${hr 2}$color
+###############################################
+##GEOIP
+###############################################
+#${font Hack:regular:size=8}Ping: 			$alignr${texeci 450 ping www.google.com -c 1 | grep time= | rev | cut -c -6 | rev}
+#${font Hack:regular:size=8}country     	$alignr${texeci 450 curl ipinfo.io/country} 
+#${font Hack:regular:size=8}region  		$alignr${texeci 450 curl ipinfo.io/region} 
+#${font Hack:regular:size=8}city  			$alignr${texeci 450 curl ipinfo.io/city}
+#${font Hack:regular:size=8}coords 			$alignr${texeci 450 curl ipinfo.io/loc}
+##############################################
