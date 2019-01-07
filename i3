@@ -1,1 +1,0 @@
-/home/titan/.i3

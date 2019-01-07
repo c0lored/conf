@@ -1,0 +1,722 @@
+127.0.0.1 - - [03/Jan/2019 23:14:19] "GET /37.m3u8 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.5/http/server.py", line 410, in handle_one_request
+    method()
+  File "/home/titan/Scripts/sxm-server.py", line 329, in do_GET
+    self.wfile.write(bytes(data, 'utf-8'))
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+BrokenPipeError: [Errno 32] Broken pipe
+127.0.0.1 - - [03/Jan/2019 23:14:19] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:19] "GET /key/1 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415213714_03261782_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:22] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415223467_03261783_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:24] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415233219_03261784_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:31] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:33] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415242971_03261785_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415252724_03261786_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:52] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:54] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415262476_03261787_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:14:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415272229_03261788_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:11] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:13] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415281981_03261789_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415291733_03261790_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415301486_03261791_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:36] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415311238_03261792_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:52] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:54] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415320990_03261793_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:15:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415330743_03261794_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:11] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:13] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415340495_03261795_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415350248_03261796_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415360000_03261797_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415369752_03261798_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:51] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415379505_03261799_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:16:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415389257_03261800_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:11] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:13] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415399010_03261801_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415408762_03261802_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415418514_03261803_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415428267_03261804_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:51] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415438019_03261805_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:17:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415447771_03261806_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:11] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:13] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415457524_03261807_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415467276_03261808_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415477029_03261809_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:36] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415486781_03261810_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:51] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415496533_03261811_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:18:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415506286_03261812_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:11] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:13] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415516038_03261813_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415525790_03261814_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415535543_03261815_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:36] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415545295_03261816_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:52] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:54] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415555048_03261817_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:19:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415564800_03261818_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:14] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415574552_03261819_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415584305_03261820_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415594057_03261821_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:37] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415603810_03261822_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:20:39] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415613562_03261823_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:01] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:03] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415623314_03261824_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:06] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415633067_03261825_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:07] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415642819_03261826_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:22] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:24] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415652571_03261827_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415662324_03261828_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:58] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:21:59] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415672076_03261829_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415681829_03261830_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:05] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415691581_03261831_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:20] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415701333_03261832_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:31] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415711086_03261833_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:38] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415720838_03261834_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:22:44] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415730590_03261835_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415740343_03261836_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:18] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415750095_03261837_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415759848_03261838_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:25] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415769600_03261839_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:32] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415779352_03261840_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:55] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:23:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415789105_03261841_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:22] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415798857_03261842_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:22] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415808610_03261843_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:28] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:32] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415818362_03261844_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:37] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415828114_03261845_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:41] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415837867_03261846_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:24:44] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415847619_03261847_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:10] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:14] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415857371_03261848_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415867124_03261849_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:19] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:22] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415876876_03261850_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415886629_03261851_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415896381_03261852_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:25:58] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415906133_03261853_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:06] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415915886_03261854_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:10] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415925638_03261855_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415935390_03261856_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:49] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:50] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415945143_03261857_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:26:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415954895_03261858_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:00] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:04] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415964648_03261859_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415974400_03261860_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:13] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415984152_03261861_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010415993905_03261862_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:40] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:27:44] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416003657_03261863_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:06] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416013410_03261864_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:06] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:10] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416023162_03261865_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:11] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416032914_03261866_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416042667_03261867_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416052419_03261868_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:23] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416062171_03261869_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:42] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:45] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416071924_03261870_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416081676_03261871_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416091429_03261872_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:28:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416101181_03261873_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:29:22] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:29:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416110933_03261874_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:29:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416120686_03261875_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:29:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416130438_03261876_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:29:32] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416140190_03261877_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:01] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:03] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416149943_03261878_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:06] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416159695_03261879_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416169448_03261880_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:11] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416179200_03261881_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:52] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:30:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416188952_03261882_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416198705_03261883_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:03] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416208457_03261884_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:04] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416218210_03261885_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:12] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416227962_03261886_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:16] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416237714_03261887_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:46] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416247467_03261888_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416257219_03261889_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416266971_03261890_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:31:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416276724_03261891_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:32:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:32:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416286476_03261892_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:32:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416296229_03261893_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:32:30] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416305981_03261894_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:32:32] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416315733_03261895_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:05] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416325486_03261896_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:12] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416335238_03261897_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416344990_03261898_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416354743_03261899_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:22] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416364495_03261900_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:33:54] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:11] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416374248_03261901_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:17] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:23] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416384000_03261902_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:24] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416393752_03261903_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416403505_03261904_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:35] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416413257_03261905_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:46] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416423010_03261906_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416432762_03261907_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:34:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416442514_03261908_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:35:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010416452267_03261909_v3.aac HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (110, 'ETIMEDOUT')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(110, 'ETIMEDOUT')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.5/http/server.py", line 410, in handle_one_request
+    method()
+  File "/home/titan/Scripts/sxm-server.py", line 324, in do_GET
+    data = sxm.get_playlist(self.path.rsplit('/', 1)[1][:-5])
+  File "/home/titan/Scripts/sxm-server.py", line 239, in get_playlist
+    res = self.session.get(url, params=params)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(110, 'ETIMEDOUT')",))
+127.0.0.1 - - [03/Jan/2019 23:57:33] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:33] "GET /key/1 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:43] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417807848_03262048_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417817600_03262049_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417827352_03262050_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417837105_03262051_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:57:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417846857_03262052_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:15] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417856610_03262053_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:22] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417866362_03262054_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:38] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:41] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417876114_03262055_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:44] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417885867_03262056_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:45] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417895619_03262057_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:58:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417905371_03262058_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417915124_03262059_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417924876_03262060_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417934629_03262061_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:45] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417944381_03262062_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417954133_03262063_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2019 23:59:49] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417963886_03262064_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417973638_03262065_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417983390_03262066_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010417993143_03262067_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:45] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418002895_03262068_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418012648_03262069_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:00:49] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418022400_03262070_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:16] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418032152_03262071_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418041905_03262072_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:22] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418051657_03262073_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418061410_03262074_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:51] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418071162_03262075_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:01:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418080914_03262076_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418090667_03262077_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418100419_03262078_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418110171_03262079_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:48] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418119924_03262080_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:52] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418129676_03262081_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:02:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418139429_03262082_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:15] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418149181_03262083_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:23] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418158933_03262084_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:26] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418168686_03262085_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:44] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418178438_03262086_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:48] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418188190_03262087_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:03:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418197943_03262088_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:16] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418207695_03262089_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418217448_03262090_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418227200_03262091_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:23] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418236952_03262092_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:45] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418246705_03262093_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:04:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418256457_03262094_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:03] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:06] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418266210_03262095_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418275962_03262096_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:26] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418285714_03262097_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418295467_03262098_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:46] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418305219_03262099_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:48] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418314971_03262100_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:05:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418324724_03262101_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418334476_03262102_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418344229_03262103_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418353981_03262104_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:45] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418363733_03262105_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418373486_03262106_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:06:49] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418383238_03262107_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:16] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418392990_03262108_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418402743_03262109_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418412495_03262110_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:45] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418422248_03262111_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418432000_03262112_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:54] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418441752_03262113_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:07:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418451505_03262114_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418461257_03262115_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418471010_03262116_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418480762_03262117_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418490514_03262118_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418500267_03262119_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:08:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418510019_03262120_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:09:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:09:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418519771_03262121_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:09:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418529524_03262122_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:09:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418539276_03262123_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:09:56] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:09:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418549029_03262124_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418558781_03262125_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418568533_03262126_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418578286_03262127_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418588038_03262128_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418597790_03262129_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418607543_03262130_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418617295_03262131_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:10:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418627048_03262132_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:24] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:26] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418636800_03262133_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418646552_03262134_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418656305_03262135_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:44] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:46] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418666057_03262136_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:48] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418675810_03262137_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:11:49] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418685562_03262138_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418695314_03262139_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:16] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418705067_03262140_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:36] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:37] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418714819_03262141_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:39] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418724571_03262142_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:12:41] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418734324_03262143_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:06] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418744076_03262144_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418753829_03262145_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:11] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418763581_03262146_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:34] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:36] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418773333_03262147_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:38] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418783086_03262148_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:13:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418792838_03262149_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:04] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:07] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418802590_03262150_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418812343_03262151_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:10] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418822095_03262152_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:33] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418831848_03262153_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:36] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418841600_03262154_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:14:38] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418851352_03262155_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:03] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:06] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418861105_03262156_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418870857_03262157_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:11] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418880610_03262158_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:37] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418890362_03262159_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:44] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418900114_03262160_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:45] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:50] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418909867_03262161_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:15:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418919619_03262162_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:15] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418929371_03262163_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:23] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418939124_03262164_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418948876_03262165_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:45] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:48] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418958629_03262166_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:51] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418968381_03262167_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:16:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418978133_03262168_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:16] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418987886_03262169_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:20] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010418997638_03262170_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:24] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419007390_03262171_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:52] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419017143_03262172_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:55] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419026895_03262173_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:17:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419036648_03262174_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:18:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419046400_03262175_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:18:25] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:18:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419056152_03262176_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:18:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419065905_03262177_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:18:31] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419075657_03262178_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:18:33] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419085410_03262179_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:04] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:07] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419095162_03262180_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419104914_03262181_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:12] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419114667_03262182_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:14] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419124419_03262183_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:47] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419134171_03262184_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:49] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419143924_03262185_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:51] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419153676_03262186_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:19:53] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419163429_03262187_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:24] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419173181_03262188_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:31] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419182933_03262189_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:33] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419192686_03262190_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:36] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419202438_03262191_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419212190_03262192_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419221943_03262193_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:20:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419231695_03262194_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:21:25] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:21:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419241448_03262195_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:21:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419251200_03262196_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:21:32] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419260952_03262197_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:21:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:21:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419270705_03262198_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419280457_03262199_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419290210_03262200_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419299962_03262201_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419309714_03262202_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:30] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419319467_03262203_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419329219_03262204_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419338971_03262205_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:22:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419348724_03262206_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419358476_03262207_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419368229_03262208_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419377981_03262209_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419387733_03262210_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419397486_03262211_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:23:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419407238_03262212_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419416990_03262213_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419426743_03262214_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419436495_03262215_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419446248_03262216_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:57] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419456000_03262217_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:24:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419465752_03262218_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419475505_03262219_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419485257_03262220_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419495010_03262221_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:54] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419504762_03262222_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:25:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419514514_03262223_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419524267_03262224_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419534019_03262225_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:36] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:38] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419543771_03262226_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419553524_03262227_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:41] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419563276_03262228_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:26:43] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419573029_03262229_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:15] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419582781_03262230_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419592533_03262231_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:18] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419602286_03262232_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:20] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419612038_03262233_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419621790_03262234_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:27:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419631543_03262235_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419641295_03262236_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419651048_03262237_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:23] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419660800_03262238_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:26] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419670552_03262239_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419680305_03262240_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419690057_03262241_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:28:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419699810_03262242_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419709562_03262243_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:25] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419719314_03262244_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419729067_03262245_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:31] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419738819_03262246_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:29:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419748571_03262247_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419758324_03262248_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419768076_03262249_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:24] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:26] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419777829_03262250_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419787581_03262251_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:30] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419797333_03262252_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419807086_03262253_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:30:59] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419816838_03262254_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:31:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419826590_03262255_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:31:24] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:31:26] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419836343_03262256_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:31:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419846095_03262257_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:31:30] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419855848_03262258_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:31:32] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419865600_03262259_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:03] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:05] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419875352_03262260_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:07] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419885105_03262261_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419894857_03262262_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:33] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419904610_03262263_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:37] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419914362_03262264_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:38] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419924114_03262265_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:32:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419933867_03262266_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:16] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419943619_03262267_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419953371_03262268_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:23] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419963124_03262269_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419972876_03262270_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:53] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:33:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419982629_03262271_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010419992381_03262272_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:03] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010420002133_03262273_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:04] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010420011886_03262274_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:33] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010420021638_03262275_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:37] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010420031390_03262276_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:38] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010420041143_03262277_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:34:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010420050895_03262278_v3.aac HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (22, 'EINVAL')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+  File "/home/titan/.local/lib/python3.5/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(22, 'EINVAL')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 313, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 341, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/lib/python3.5/http/server.py", line 422, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.5/http/server.py", line 410, in handle_one_request
+    method()
+  File "/home/titan/Scripts/sxm-server.py", line 324, in do_GET
+    data = sxm.get_playlist(self.path.rsplit('/', 1)[1][:-5])
+  File "/home/titan/Scripts/sxm-server.py", line 239, in get_playlist
+    res = self.session.get(url, params=params)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/titan/.local/lib/python3.5/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(22, 'EINVAL')",))
+127.0.0.1 - - [04/Jan/2019 00:52:55] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:52:56] "GET /key/1 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:12] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421123657_03262388_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:19] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421133410_03262389_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:27] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421143162_03262390_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:32] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:37] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421152914_03262391_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:41] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:49] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421162667_03262392_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:55] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421172419_03262393_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:53:59] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:54:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421182171_03262394_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:54:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421191924_03262395_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:54:14] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421201676_03262396_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:54:21] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421211429_03262397_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:54:51] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:02] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421221181_03262398_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:06] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:12] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421230933_03262399_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:16] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:24] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421240686_03262400_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:28] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421250438_03262401_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:30] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:35] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421260190_03262402_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421269943_03262403_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:46] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421279695_03262404_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:55:54] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421289448_03262405_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:56:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421299200_03262406_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:56:08] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421308952_03262407_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:56:37] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:57:04] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421318705_03262408_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:57:13] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:57:29] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421328457_03262409_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:57:36] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:57:56] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421338210_03262410_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:57:58] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:58:09] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421347962_03262411_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:58:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421357714_03262412_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:58:21] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:58:34] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421367467_03262413_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:59:00] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421377219_03262414_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:59:01] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:59:11] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421386971_03262415_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:59:24] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421396724_03262416_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:59:33] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 00:59:58] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421406476_03262417_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:00:03] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:00:25] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421416229_03262418_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:00:40] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421425981_03262419_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:00:43] "GET /37.m3u8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:01:01] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421435733_03262420_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:01:17] "GET /AAC_Data/octane/HLS_octane_256k_v3/octane_256k_1_010421445486_03262421_v3.aac HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019 01:01:22] "GET /37.m3u8 HTTP/1.1" 200 -
