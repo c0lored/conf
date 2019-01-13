@@ -1,0 +1,10 @@
+set number
+set hlsearch
+set ignorecase
+set selectmode=mouse
+set mouse=a
+set ruler
+set list
+set scs
+set laststatus=2
+set showmatch
