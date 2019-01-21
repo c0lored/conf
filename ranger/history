@@ -1,0 +1,5 @@
+chmod
+shell`` 
+
+shell export EDITOR="nano"
+open_with vi
