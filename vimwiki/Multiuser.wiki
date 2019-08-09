@@ -1,0 +1,1 @@
+Edit MULTIUSER value in QBWUSER.ini located at Users/$USER/AppData/Local/$QBVERSION

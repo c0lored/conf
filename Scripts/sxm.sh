@@ -1,3 +1,3 @@
 #!/bin/bash
 killall vlc
-cvlc http://127.0.0.1:8888/$1.m3u8
+cvlc http://127.0.0.1:8888/$1.m3u8 > /dev/null

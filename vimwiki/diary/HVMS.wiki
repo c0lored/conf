@@ -1,0 +1,13 @@
+= Firewall Exceptions =
+9107
+9108
+21113
+
+We have a number of Windows services as well that should have full access, here are their paths for firewall exclusion, relative the H:\HVMS main folder on the server:
+
+HVMSServices\Business Infusions Event Manager Service.exe
+HVMSServices\Signature Lab Services Server.exe
+HVMSServices\Business Infusions REST API Service.exe
+HVMSServices\HVMS Server.exe
+Update Service\Business Infusions Updater.exe
+Server Service\HVMS Server.exe

@@ -1,0 +1,4 @@
+= Software =
+[[diary/Mobaxterm|Mobaxterm]]
+[[Quickbooks]]
+

@@ -1,0 +1,7 @@
+= MAKE SURE INBOUND AND OUTBOUND FIREWALL RULES ARE ACTIVE =
+* Remote to server
+* Open QB Database Manager
+* Scan
+* Open Windows Firewall
+* Ensure all QB inbound and outbound rules are enabled
+* Clean up copies of firewall rules if neccessary

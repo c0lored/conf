@@ -1,0 +1,8 @@
+``` Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details PreFinalCommitSnapshots({68bb8000-a577-4045-abff-7d998ba184cc}, 1) [hr = 0x800705b4, This operation returned because the timeout period expired.].
+    Operation:
+    Executing Asynchronous Operation
+    Context:
+    Current State: DoSnapshotSet ```
+
+= Resolution = 
+Remove Hyper-V Backup Integration, run one backup, and turn integration back on. This process allows the VSS to rebuild allowing it to not timeout. ==

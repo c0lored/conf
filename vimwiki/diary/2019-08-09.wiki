@@ -1,0 +1,6 @@
+= PJN Action Items 8-9-19 =
+* [ ] [[../Backups|Backups]]
+* [ ] Check [[MCSC]] Backup status
+* [ ] Call Alice at [[BREC]] to follow up about [[HVMS|firewall]]
+* [ ] Countinue through [[../Status Checks|Active Alerts]]
+* [ ] Fix Fonts in [[Mobaxterm]]

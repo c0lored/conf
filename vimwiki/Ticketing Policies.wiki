@@ -1,0 +1,5 @@
+* Create new ticket
+* Fill out summary and ticket details best you can.
+* Save
+* Click *CLOCK ICON*
+* Enter time and notes as needed.

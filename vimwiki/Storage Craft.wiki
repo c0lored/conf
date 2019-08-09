@@ -1,0 +1,10 @@
+[[Credentials]]
+
+* Managed service Providers
+* Cloud Services
+* Expand them all
+* completed and date
+* timestamp > 2 days
+	* Generate recovery point if too old
+
+[[StorageCraft Known Issues]]

@@ -1,4 +1,4 @@
-set number
+set number relativenumber
 set hlsearch
 set ignorecase
 set selectmode=mouse
@@ -8,3 +8,26 @@ set list
 set scs
 set laststatus=2
 set showmatch
+let g:powerline_pycmd="py3"
+syntax on
+set nocompatible
+filetype plugin on
+set showbreak=↪\ 
+set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+set omnifunc=syntaxcomplete#Complete
+au BufRead,BufNewFile *.wiki set filetype=vimwiki
+:autocmd FileType vimwiki map d :VimwikiMakeDiaryNote
+function! ToggleCalendar()
+  execute ":Calendar"
+  if exists("g:calendar_open")
+    if g:calendar_open == 1
+      execute "q"
+      unlet g:calendar_open
+    else
+      g:calendar_open = 1
+    end
+  else
+    let g:calendar_open = 1
+  end
+endfunction
+:autocmd FileType vimwiki map b :call ToggleCalendar()

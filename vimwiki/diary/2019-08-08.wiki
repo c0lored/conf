@@ -1,0 +1,9 @@
+= PJN Action Items 8-8-19 =
+* [X] Complete Backups
+* [X] Implement solution for [[MCSC]],[[VSS Timeout|VSS issue]]
+* [O] Talk to Gary about [[BREC]]
+	* [X] Implement [[HVMS]] firewall exceptions
+	* [X] Let Alice know we are turning it on
+	* [X] *FLIP THE SWITCH*
+* [X] Fix [[../James Seidl|Seidl]] [[../H503 and H502 Error|firewall]] issue
+* [X] Fix [[../James Seidl|Seidl]] [[../Multiuser|multiuser]] issue

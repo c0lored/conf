@@ -1,0 +1,4 @@
+Bad Ass Terminal Emulator
+https://mobaxterm.mobatek.net/
+
+Unicode Font issue - https://bryanchain.com/2016/02/17/unicode-font-issue-in-windows/

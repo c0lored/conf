@@ -1,0 +1,4 @@
+* PJ networks
+	* Active Issues
+		* BRO-2011, log in to unlock to unlock bitlocker drive, every tuesday
+		* [[diary/MCSC|MCSC]]-Host, one good backup every couple of days *<-SOLVED* 

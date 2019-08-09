@@ -1,0 +1,4 @@
+* disk i/o less than 8 hours
+* patch status shorter than a month
+* warrenties on desktops
+
