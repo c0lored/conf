@@ -1,0 +1,13 @@
+== Tod Ownen VM Migration ==
+
+* Resources
+	* Mentioned about 300GB of DB storage, we aren't sure on the other specs of this machine. 
+* Just Migrating or managing
+	* Seem to be just migrating
+
+At this point it seems like we will just be migrating this. I will be working with Whit on the new server check list. 
+
+If we end up managing the application we would like a 90 day retention in the DB with the rest being moved to warm storage.
+
+*Reference link for Software*
+SELinc.com

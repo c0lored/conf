@@ -1,0 +1,6 @@
+* [ ] [[projects/Infor & GXS FTP]]
+* [X] [[projects/SOM-Finale|School of Music Finale Licensing]]
+* [ ] [[projects/RHEL 6 TO 7]]
+* [ ] [[projects/ansys licensing]]
+* [ ] [[projects/TOwenVM|Todd Owen VM Migration]]
+* [ ] [[projects/FTP Migration]]

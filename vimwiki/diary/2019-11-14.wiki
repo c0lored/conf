@@ -1,0 +1,5 @@
+= LU ToDo 11-14-2019 =
+
+1. [X] Work with Whit to take a look at inforxmtool, specifically at cron jobs to find the push to [[../projects/Infor & GXS FTP|GXS]]
+2. [ ] Research and test upgrade from RHEL 6 to RHEL 7
+

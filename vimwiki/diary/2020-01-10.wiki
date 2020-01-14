@@ -1,0 +1,3 @@
+= LU ToDo 01/10/2020 =
+
+* [X] follow up on permission for [[../projects/FTP Migration|crushftp cluster]]

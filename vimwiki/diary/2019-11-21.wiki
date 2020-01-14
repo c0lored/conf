@@ -1,0 +1,7 @@
+= LU Todo 11-21-2019 =
+
+
+* [X] Send email to Fianle [[../projects/SOM-Finale|SoM Project]]
+* Follow up on Badge Access
+* Talk to Michaela about status of FTP Project
+

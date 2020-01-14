@@ -1,0 +1,4 @@
+= LU ToDo 11-15-2019 =
+
+* Attened meeting for [[../projects/SOM-Finale|School of Music Finale Licensing]]
+* Research and test RHEL 6 to 7 upgrades

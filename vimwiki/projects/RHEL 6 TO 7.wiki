@@ -1,0 +1,38 @@
+Reference link https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/migration_planning_guide/chap-red_hat_enterprise_linux-migration_planning_guide-upgrading
+* [ ] Double Check with Whit about the below list of servers to upgrade
+
+== Servers ==
+1. [ ] cesmtp1.liberty.edu
+2. [ ] cesmtp2.liberty.edu
+3. [ ] luls03.liberty.edu
+4. [ ] luls04.liberty.edu
+5. [ ] luls07.liberty.edu
+
+
+Test server is *luls03test* _cesmtptest_
+	mac 00:50:56:88:D9:7C
+	ip - 10.253.12.30
+
+
+
+
+Meeting for this on *12-6-2019*
+
+subscription-manager attach --pool=8a7fc821622bfb2f01622c3533e00115
+subscription-manager attach --pool=8a7fc821622bfb2f01622c3533e00115
+
+
+
+
+= CESEMPT =
+We are going to go with an inplace upgrade for the licensing server, because it went well
+for CESMTP it will be a rebuild. I have isolated the postfix config files and have a local copy of them. I have also discovered that filebeat is on these boxes. 
+
+List of localfiles
+
+* /etc/postfix
+* /etc/nsswitch.conf
+* /etc/opendkim
+* /etc/opendkim.conf
+* opendkim user
+* /etc/filebeat

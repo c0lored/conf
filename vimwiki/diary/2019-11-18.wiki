@@ -1,0 +1,8 @@
+= LU ToDo 11-18-2019 =
+
+== Servers ==
+
+* [.] Research [[../projects/RHEL 6 TO 7|RHEL Upgrade]]
+	* [X] Check with Whit about access to test server - *luls03test*
+	* [ ] Test upgrade process - Waiting on IP
+		* Reference Link https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/migration_planning_guide/chap-red_hat_enterprise_linux-migration_planning_guide-upgrading

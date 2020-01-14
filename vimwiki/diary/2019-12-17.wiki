@@ -1,0 +1,5 @@
+ = LU ToDo 12-17-2019 =
+ 
+ * Check cronjob log on BBTSFTPPROD01
+ * Follow up with Whit about Lowry
+ * 

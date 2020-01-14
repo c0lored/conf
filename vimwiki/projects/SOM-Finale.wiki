@@ -1,0 +1,8 @@
+Seems like this license manager will be run on Windows... The documentation isn't clear as to whether it must be on some flavor of Win 10 or a server OS. Below are currently scheduled meetings for this project.
+
+* [ ] TBD - Phone call with vendor to clear up technical questions.
+
+After weeks of delay from the vendor and holidays, this has been completed on 1/13/2020
+Server IP is 10.132.196.52
+Andrew Ackerman is keeping the license file `slm_fin.txt` on hand
+

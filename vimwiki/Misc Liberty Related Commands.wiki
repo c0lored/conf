@@ -1,0 +1,12 @@
+Squid Proxy Conf for things on RHEL_OS_TESTING Network Adapter
+
+```
+/etc/yum.conf
+proxy=http://squidproxy.liberty.edu:3128
+```
+export http_proxy=http://squidproxy.liberty.edu:3128
+export https_proxy=http://squidproxy.liberty.edu:3128
+
+
+Kickstart Command for Ansible VM
+inst.ks=http://satellite.liberty.edu/ks/generate.py?hostname=$HOST&ip=$IP&netmask=$MASK&gateway=$GW&nameserver=10.255.80.60

@@ -1,0 +1,4 @@
+= LU ToDo 11-26-2019 =
+
+* 10:30 Meeting about [[../projects/FTP Migration|FTP Project]]
+* Follow up with Whit about [[../projects/Infor & GXS FTP|Infor FTP]]

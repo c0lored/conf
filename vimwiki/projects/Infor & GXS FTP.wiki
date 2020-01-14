@@ -1,0 +1,37 @@
+= Contacts =
+	*Tom Voss - Vendor*
+	*Colin Attikson - PM*
+Files live at *\\files\BBT*
+Served out by FileZilla
+
+From what I can see it looks like this is just a middleman dumping ground. Visa pushes files to us then GXS pulls.
+
+ToDo
+1. [O] Confirm with Tom that GXS is pulling, rather than us pushing to them.
+	* [X] If this is the case than there isn't much to change on our side.
+		* [X] Send email / update incident to get this answer.
+	* [X] If not the case than we will need to do some more digging and find where the automation for this lives.
+	* [X] Seems there is sched'd task for the upload for these, it was hidden in a bat file for decrypting the data.
+	* [ ] Will work with Tom next week to figure out what needs to change on our end.
+
+
+After some more digging I was able to find the command that pushes the encrypted files over to INFOXMTOOL a VM that then sends the files to GXS. Below will are the next steps for this project
+
+	==The below should all be done on INFORXMTOOL==
+1. [X] Find the automation that is pushing files up to GXS
+	* The automation for this lives in the xmsuer's home directory as a bash file. It is ran by a cron job every 5 min. 
+2. [X] Determine what authentication method is being used for the upload
+	* seems it is using public key authentication to push up to GXS
+3. [ ] Work with Tom Voss to determine what changes will need to made on our end.
+4. [ ] Profit!
+
+A seperate incident has come up where we must change the SSH usied by inforxmtool to connect. I have followed up with them to get a copy of the new key, so we can test this.
+
+
+We will need a new public key from our test server to test the change. 
+
+We are going to start moving forward with change the data flow here. 
+
+I need to follow up with Whit about getting storage exported so I can mount it to secureftp.liberty.edu. After the storage is mounted I can start working on the script to pull down the two files we will need they are in the format of _20191126_ with a metric at the end. We will need a onliner to pulldown the current day file to out storage and then push it over to the Data Warehouse. 413938
+
+

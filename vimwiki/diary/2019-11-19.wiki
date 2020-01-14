@@ -1,0 +1,6 @@
+= LU ToDo 11-19-2019 =
+
+* [X] Follow up with Whit about the IP address for *luls03test*
+	* [X] Get IP - 
+	* [X] Contine research and work on upgrade process for [[../projects/RHEL 6 TO 7|RHEL Upgrade]]
+* [X] Make Wikipage for Dan's thing [[../projects/ansys licensing]]

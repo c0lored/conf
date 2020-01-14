@@ -1,0 +1,5 @@
+== Ansys Licensing ==
+
+Seems this licensing application lives on *luls06* this is awindows box.
+At the point we need to establish how Ansys is talking to luls06, Azure Team and us will work together to figure this out.
+

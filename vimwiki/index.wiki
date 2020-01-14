@@ -1,3 +1,4 @@
-[[PJN]]
-[[Personal]]
-
+= Liberty University =
+	[[1. Services]]
+	[[2. Projects]]
+        [[3. Notes ]]

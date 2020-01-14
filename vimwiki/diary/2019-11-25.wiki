@@ -1,0 +1,7 @@
+= LU ToDo 11-25-2019 =
+* [X] [[../projects/TOwenVM|Todd Owen VM Meeting]]
+* [ ] Work to remediate space issues on luls09
+* [X] Follow up with Infor about SSH key
+* [X] Follow up with Parking
+* [X] Follow up with Badge Access
+

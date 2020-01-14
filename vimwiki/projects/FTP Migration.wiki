@@ -1,0 +1,28 @@
+This project will require migrating users away from the old FTP to the new CrushFTP server.
+
+Start Date - TBD
+
+11-25-19
+----
+Last atction Items
+	* Get External DNS & Firewall rules for https://secureftp.liberty.edu
+	* Confirm with Johnny that we can begin the transition of FTP accounts
+
+Michaela will be sending over a spreadsheet detailing the accounts. 
+We want to convert as many local accounts possible to AD accounts. 
+Any account that uses an SSH key will *have* to be local 
+
+We want to start the migration with ITIMO, and the School of Music, maybe Broadcast operations as well.
+----
+
+11-26-19
+----
+This meeting will be for the planning of the timeline of the migrations. After conferring with Whit we want to Broadcast Ops first as a kind of test run. 
+
+Prod Servers are
+	* crushftpprod01
+	* crushftpprod02
+	* crushftpprod03
+	* crushftpprod04
+	* 
+
